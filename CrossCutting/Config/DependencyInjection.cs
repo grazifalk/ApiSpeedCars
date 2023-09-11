@@ -17,6 +17,7 @@ namespace CrossCutting.Config
             services.AddDbContext<ContextDb>(options => options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<ICarRepository, CarRepository>();
             services.AddScoped<IModelRepository, ModelRepository>();
+            services.AddScoped<IRenterRepository, RenterRepository>();
 
             return services;
         }
@@ -25,6 +26,7 @@ namespace CrossCutting.Config
         {
             services.AddScoped<ICarService, CarService>();
             services.AddScoped<IModelService, ModelService>();
+            services.AddScoped<IRenterService, RenterService>();
             services.AddAutoMapper(typeof(DTOToDomain));
             return services;
         }

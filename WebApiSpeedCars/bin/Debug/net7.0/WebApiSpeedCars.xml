@@ -143,5 +143,111 @@
             <response code="404">Modelo não encontrado.</response>
             <response code="406">Caractere inaceitável.</response>
         </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.FindAll">
+            <summary>
+            Retorna uma lista com todos os locatários cadastrados.
+            </summary>
+            <response code="200">Retorna uma lista com todos os locatários cadastrados.</response>
+        </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.FindById(System.Int32)">
+            <summary>
+            Realiza busca por ID para localizar um locatário específico.
+            </summary>
+            <response code="200">Retorna um locatário específico.</response>
+            <response code="404">Locatário não encontrado.</response>
+            <response code="406">Caractere inaceitável.</response>
+        </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.FindByName(System.String)">
+            <summary>
+            Realiza busca por nome para localizar um locatário específico.
+            </summary>
+            <response code="200">Retorna um locatário específico.</response>
+            <response code="404">Locatário não encontrado.</response>
+            <response code="406">Caractere inaceitável.</response>
+        </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.FindByCPF(System.String)">
+            <summary>
+            Realiza busca por CPF para localizar um locatário específico.
+            </summary>
+            <response code="200">Retorna um locatário específico.</response>
+            <response code="404">Locatário não encontrado.</response>
+            <response code="406">Caractere inaceitável.</response>
+        </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.FindByRG(System.String)">
+            <summary>
+            Realiza busca por RG para localizar um locatário específico.
+            </summary>
+            <response code="200">Retorna um locatário específico.</response>
+            <response code="404">Locatário não encontrado.</response>
+            <response code="406">Caractere inaceitável.</response>
+        </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.FindByCNH(System.String)">
+            <summary>
+            Realiza busca por CNH para localizar um locatário específico.
+            </summary>
+            <response code="200">Retorna um locatário específico.</response>
+            <response code="404">Locatário não encontrado.</response>
+            <response code="406">Caractere inaceitável.</response>
+        </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.Create(Service.DTOs.RenterDTO)">
+             <summary>
+             Cria um novo locatário.
+             </summary>
+             <remarks>
+             Exemplo com campos obrigatórios:
+            
+                 POST /Renter/register
+                 {
+            "name": "Graziela Falk",
+             "birth": "1990-08-17T21:05:53.603Z",
+             "phoneNumber": "22981122183",
+             "address": "Rua Prudente de Morais, 128",
+             "email": "grazifalk@gmail.com",
+             "cpf": "12345678911",
+             "identityDocumentNumber": "216586199",
+              "driverLicenseNumber": "48948949898",
+             "documentType": "CPF"
+             }
+             </remarks>
+             <response code="201">Retorna o locatário recém criado.</response>
+             <response code="400">Solicitação inválida. Esse erro ocorre quando algum campo obrigatório não foi devidamente preenchido.</response>
+        </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.Update(Service.DTOs.RenterDTO)">
+             <summary>
+             Atualiza um locatário.
+             </summary>
+             <remarks>
+             Exemplo com campos obrigatórios:
+            
+                 PUT /Renter
+                 {
+             "id": 0,
+             "name": "Graziela Falk",
+             "birth": "1990-08-17T21:05:53.603Z",
+             "phoneNumber": "22981122183",
+             "address": "Rua Prudente de Morais, 128",
+             "email": "grazifalk@gmail.com",
+             "cpf": "12345678911",
+              "identityDocumentNumber": "216586199",
+             "driverLicenseNumber": "48948949898",
+             "documentType": "CPF"
+             }
+             </remarks>
+             <response code="200">Retorna o locatário recém atualizado.</response>
+             <response code="400">Solicitação inválida. Esse erro ocorre quando algum campo obrigatório não foi devidamente preenchido.</response>
+             <response code="404">Locatário não encontrado.</response>
+        </member>
+        <member name="M:WebApiSpeedCars.Controllers.RenterController.Delete(System.Int32)">
+            <summary>
+            Exclui um locatário específico.
+            </summary>
+            <remarks>
+            Informe o ID do locatário que deseja deletar.
+            </remarks>
+            <response code="200">Retorna uma mensagem informando que o locatário foi excluído com sucesso.</response>
+            <response code="400">Solicitação inválida.</response>
+            <response code="404">Locatário não encontrado.</response>
+            <response code="406">Caractere inaceitável.</response>
+        </member>
     </members>
 </doc>

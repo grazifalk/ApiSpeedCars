@@ -10,6 +10,7 @@ namespace Service.Mapping
         {
             CreateMap<Car, CarDTO>();
             CreateMap<Model, ModelDTO>();
+            CreateMap<Renter, RenterDTO>();
         }
     }
 }

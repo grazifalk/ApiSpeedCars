@@ -12,6 +12,7 @@ namespace Data.Context
         }
         public DbSet<Car> Cars { get; set; }
         public DbSet<Model> Models { get; set; }
+        public DbSet<Renter> Renters { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
