@@ -1,0 +1,17 @@
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\bin\Debug\net7.0\Service.deps.json
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\bin\Debug\net7.0\Service.dll
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\bin\Debug\net7.0\Service.pdb
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\bin\Debug\net7.0\Data.dll
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\bin\Debug\net7.0\Domain.dll
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\bin\Debug\net7.0\Data.pdb
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\bin\Debug\net7.0\Domain.pdb
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\Service.dll
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\refint\Service.dll
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\Service.pdb
+D:\aArquivosOrganizados\Dev\Projetos\SpeedCars\SpeedCars\Service\obj\Debug\net7.0\ref\Service.dll
