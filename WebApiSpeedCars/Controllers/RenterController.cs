@@ -66,8 +66,8 @@ namespace WebApiSpeedCars.Controllers
         /// <response code="200">Retorna um locatário específico.</response>
         /// <response code="404">Locatário não encontrado.</response>
         /// <response code="406">Caractere inaceitável.</response>
-        [HttpGet("cpf/{cpf}")]
-        public async Task<ActionResult> FindByCPF(string cpf)
+        [HttpGet("cpf")]
+        public async Task<ActionResult> FindByCPF([FromQuery] string cpf)
         {
             var result = await _renterService.FindByCPF(cpf);
             if (result.Code == 406) return Problem(
@@ -82,8 +82,8 @@ namespace WebApiSpeedCars.Controllers
         /// <response code="200">Retorna um locatário específico.</response>
         /// <response code="404">Locatário não encontrado.</response>
         /// <response code="406">Caractere inaceitável.</response>
-        [HttpGet("rg/{identityDocumentNumber}")]
-        public async Task<ActionResult> FindByRG(string identityDocumentNumber)
+        [HttpGet("rg")]
+        public async Task<ActionResult> FindByRG([FromQuery] string identityDocumentNumber)
         {
             var result = await _renterService.FindByRG(identityDocumentNumber);
             if (result.Code == 406) return Problem(
@@ -98,8 +98,8 @@ namespace WebApiSpeedCars.Controllers
         /// <response code="200">Retorna um locatário específico.</response>
         /// <response code="404">Locatário não encontrado.</response>
         /// <response code="406">Caractere inaceitável.</response>
-        [HttpGet("cnh/{driverLicenseNumber}")]
-        public async Task<ActionResult> FindByCNH(string driverLicenseNumber)
+        [HttpGet("cnh")]
+        public async Task<ActionResult> FindByCNH([FromQuery] string driverLicenseNumber)
         {
             var result = await _renterService.FindByCNH(driverLicenseNumber);
             if (result.Code == 406) return Problem(
